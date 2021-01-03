@@ -4,9 +4,9 @@ go 1.14
 
 require (
 	github.com/DataDog/datadog-agent/pkg/trace/exportable v0.0.0-20201016145401-4646cf596b02
-	github.com/aws/aws-sdk-go v1.36.15
+	github.com/aws/aws-sdk-go v1.36.19
 	github.com/gogo/protobuf v1.3.1
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.0.0-00010101000000-000000000000
+	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.0.0-00010101000000-000000000000 // indirect
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/stretchr/testify v1.6.1
 	github.com/zorkian/go-datadog-api v2.29.0+incompatible // indirect
