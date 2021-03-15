@@ -4,6 +4,7 @@ go 1.14
 
 require (
 	github.com/fatih/color v1.10.0 // indirect
+	github.com/moby/sys/mount v0.2.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/alibabacloudlogserviceexporter v0.0.0-00010101000000-000000000000
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsemfexporter v0.0.0-00010101000000-000000000000
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsprometheusremotewriteexporter v0.0.0-00010101000000-000000000000
@@ -57,8 +58,8 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/zookeeperreceiver v0.0.0-00010101000000-000000000000
 	github.com/sirupsen/logrus v1.7.0 // indirect
 	github.com/stretchr/testify v1.7.0
-	go.opentelemetry.io/collector v0.19.0
-	golang.org/x/sys v0.0.0-20201214210602-f9fddec55a1e
+	go.opentelemetry.io/collector v0.22.0
+	golang.org/x/sys v0.0.0-20210217105451-b926d437f341
 )
 
 // Replace references to modules that are in this repository with their relateive paths
