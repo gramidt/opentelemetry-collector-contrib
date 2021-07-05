@@ -8,6 +8,6 @@ require (
 	go.opencensus.io v0.22.5
 	go.opentelemetry.io/collector v0.19.0
 	go.opentelemetry.io/otel v0.15.0
-	go.uber.org/zap v1.16.0
+	go.uber.org/zap v1.18.1
 	google.golang.org/protobuf v1.25.0
 )
