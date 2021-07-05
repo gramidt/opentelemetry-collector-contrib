@@ -6,6 +6,6 @@ require (
 	github.com/spf13/viper v1.7.1
 	github.com/stretchr/testify v1.7.0
 	go.opentelemetry.io/collector v0.19.0
-	go.uber.org/zap v1.16.0
+	go.uber.org/zap v1.18.1
 	golang.org/x/sys v0.0.0-20201214210602-f9fddec55a1e
 )
